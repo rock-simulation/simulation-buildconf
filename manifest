@@ -1,0 +1,7 @@
+package_sets:
+  - github: rock-simulation/package_set
+
+layout:
+  - rock.simulation
+
+exclude_packages:
