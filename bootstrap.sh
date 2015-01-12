@@ -1,7 +1,7 @@
 #! /bin/sh
 
 CONF_SERVER=git.hb.dfki.de
-CONF_REPO=sandbox/buildconf.git
+CONF_REPO=goldhoorn/buildconf.git
 RUBY=ruby2.1
 
 set -e
