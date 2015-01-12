@@ -1,4 +1,5 @@
 package_sets:
+  - github: rock-core/rock-package_set
   - github: rock-simulation/package_set
 
 layout:

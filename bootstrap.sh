@@ -43,20 +43,8 @@ fi
 echo "Do you want to use the git protocol to access the build configuration ?"
 echo "If the protocol is blocked by your network answer with no. The default is yes."
 
-# Check and interprete answer of "[y|n]"
-ANSWER="wrong"
-until test "$ANSWER" = "y" || test "$ANSWER" = "n" || test "$ANSWER" = ""
-do
-    echo "Use git protocol? [y|n] (default: y)"
-    read ANSWER
-    ANSWER=`echo $ANSWER | tr "[:upper:]" "[:lower:]"`
-done
 
-if [ "$ANSWER" = "n" ]; then
-    $RUBY autoproj_bootstrap $@ git http://$CONF_SERVER/$CONF_REPO push_to=git@$CONF_SERVER:$CONF_REPO branch=mars
-else
-    $RUBY autoproj_bootstrap $@ git git://$CONF_SERVER/$CONF_REPO push_to=git@$CONF_SERVER:$CONF_REPO branch=mars
-fi
+$RUBY autoproj_bootstrap $@ git git@git.hb.dfki.de:goldhoorn/buildconf.git branch=mars
 
 if test "x$@" != "xlocaldev"; then
     $SHELL -c '. $PWD/env.sh; autoproj update; autoproj fast-build'
