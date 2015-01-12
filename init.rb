@@ -23,6 +23,15 @@ env_add 'PATH', "/usr/lib/ccache/"
 # NOTE: Variables set like this are exported in the generated 'env.sh' script.
 #
 
+if Autobuild.macos?
+    Autobuild.programs['wget'] = ['wget','--no-check-certificate']
+end
+
+Autoproj.configuration_option 'pure_mars', 'boolean',
+     :default => 'no',
+     :doc => ["Do you want to make a pure-mars build without rock-stuff?"]
+
+
 #
 # Orocos Specific ignore rules
 #

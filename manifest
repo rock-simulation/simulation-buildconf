@@ -4,5 +4,5 @@ package_sets:
 
 layout:
   - rock.simulation
-
+  
 exclude_packages:
