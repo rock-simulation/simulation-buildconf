@@ -5,8 +5,7 @@
 
 if (Autoproj.user_config('pure_mars')) then
     Autoproj.manifest.each_package do |p|
-        if p.kind_of?(Autobuild::Orogen)
-        #if p.name.include?('orogen')
+        if p.kind_of?(Autobuild::Orogen) or p.name.include("vizkit")
             Autoproj.manifest.add_exclusion p.name,"No-orogen-stuff"
         end
     end
