@@ -25,12 +25,11 @@ end
 if ENV['PURE_MARS']
     STDOUT.puts "Overrivding mars build to #{ENV['PURE_MARS']}"
     Autoproj.change_option('pure_mars', ENV['PURE_MARS']) 
+else
+    Autoproj.configuration_option 'pure_mars', 'boolean',
+         :default => 'no',
+         :doc => ["Do you want to make a pure-mars build without rock-stuff?"]
 end
-
-Autoproj.configuration_option 'pure_mars', 'boolean',
-     :default => 'no',
-     :doc => ["Do you want to make a pure-mars build without rock-stuff?"]
-
 
 
 require "autoproj/gitorious"
