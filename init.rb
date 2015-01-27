@@ -39,3 +39,6 @@ Autoproj.gitorious_server_configuration('GITHUB', 'github.com', :http_url => 'ht
 
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 
+if(Autobuild.respond_to?("displayed_error_line_count"))
+    Autobuild.displayed_error_line_count = Float::INFINITY
+end
