@@ -18,9 +18,9 @@
 #
 env_add 'PATH', "/usr/lib/ccache/"
 
-if Autobuild.macos?
-    Autobuild.programs['wget'] = ['wget','--no-check-certificate']
-end
+#if Autobuild.macos?
+#    Autobuild.programs['wget'] = ['wget --no-check-certificate']
+#end
 
 if ENV['PURE_MARS']
     STDOUT.puts "Overrivding mars build to #{ENV['PURE_MARS']}"
