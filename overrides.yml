@@ -2,3 +2,11 @@
 # locally override version control information.
 
 overrides:
+  - control/urdfdom:
+      url: git@github.com:rock-simulation/urdfdom.git
+  - control/urdfdom_headers:
+      url: git@github.com:rock-simulation/urdfdom_headers.git
+  - control/console_bridge:
+      url: git@github.com:rock-simulation/console_bridge.git
+  - base/types:
+      branch: stable
