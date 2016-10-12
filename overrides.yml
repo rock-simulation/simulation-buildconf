@@ -10,3 +10,5 @@ overrides:
       url: git@github.com:rock-simulation/console_bridge.git
   - base/types:
       branch: stable
+  - tools/configmaps:
+      branch: restructured
