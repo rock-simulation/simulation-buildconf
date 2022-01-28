@@ -1,0 +1,4 @@
+- simulation/mars/.*:
+  branch: develop
+- simulation/envire_graphics:
+  branch: develop
