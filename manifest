@@ -12,6 +12,7 @@ layout:
   - simulation/envire_managers
   - simulation/envire_graphics
   - simulation/envire_smurf_loader
-
+  - models/environments/office1
+  - models/robots/wheelchair
 
 exclude_packages:
