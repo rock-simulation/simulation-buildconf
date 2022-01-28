@@ -1,0 +1,5 @@
+- simulation/envire_graphics:
+  branch: develop
+
+- envire/envire_smurf:
+  branch: fix_cmake_config

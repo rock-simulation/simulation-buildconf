@@ -1,0 +1,8 @@
+- control/urdfdom:
+    url: git@github.com:rock-simulation/urdfdom.git
+- control/urdfdom_headers:
+    url: git@github.com:rock-simulation/urdfdom_headers.git
+- base/console_bridge:
+    url: git@github.com:rock-simulation/console_bridge.git
+- simulation/mars/.*:
+    branch: develop
