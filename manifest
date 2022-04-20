@@ -3,15 +3,28 @@ package_sets:
   - github: rock-simulation/package_set
   - github: envire/package_set  
   - github: envire4mars/envire4mars-package_set
+
+  # temporary
   - dfkigit: osgviz/package_set
-  - dfkigit: models-robots/package_set
+  - dfkigit: models-robots/package_set      
+  - dfkigit: models-environments/package_set  # moon model
+  - dfkigit: mars/package_set                 # particle_system
 
 layout:
   - simulation/mars/app
   - simulation/envire_managers
   - simulation/envire_graphics
   - simulation/envire_smurf_loader
+  - simulation/envire_graph_loader
+  - simulation/envire_visual_debug
+  
   - models/environments/office1
   - models/robots/wheelchair
+  - models/environments/spacebot_cup
+
+  # temporary
+  - models/environments/moon
+  - simulation/mars_plugin_collection/particle_system
+  - gui/osgviz_mars-plugins/mars_graphics
 
 exclude_packages:
