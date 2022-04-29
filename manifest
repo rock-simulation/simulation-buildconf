@@ -26,5 +26,6 @@ layout:
   - models/environments/moon
   - simulation/mars_plugin_collection/particle_system
   - gui/osgviz_mars-plugins/mars_graphics
+  - models/robots/coyote3
 
 exclude_packages:
