@@ -1,0 +1,18 @@
+- base/types:
+  branch: feature/qt5
+- gui/osg_qt4:
+  branch: feature/qt5
+- slam/maps:
+  branch: feature/qt5
+- envire/envire_maps:
+  branch: feature/qt5
+- gui/vizkit3d:
+  branch: feature/qt5 
+- gui/osg_qt4:
+  branch: feature/qt5 
+
+# add 
+# gui/vizkit3d_plugin_information
+# gui/vizkit3d_pcl
+# envire/envire_visualizer
+# simulation/envire_visual_debug
