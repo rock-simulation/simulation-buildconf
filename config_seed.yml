@@ -31,3 +31,4 @@ GITLAB_PUSH_ROOT: https://gitlab.com
 GITLAB_PRIVATE_ROOT: https://gitlab.com
 use_default_config: true
 sherpatt_use_bundles: all
+pure_mars: false
