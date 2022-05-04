@@ -1,6 +1,5 @@
 package_sets:
   - github: rock-core/rock-package_set
-    branch: feature/qt5 
   - github: rock-simulation/package_set
   - github: envire/package_set  
   - github: envire4mars/envire4mars-package_set

@@ -1,3 +1,5 @@
+- pkg_set:github:/rock-core/package_set.git:
+  branch: feature/qt5
 - base/types:
   branch: feature/qt5
 - gui/osg_qt4:
