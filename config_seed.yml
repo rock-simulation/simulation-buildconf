@@ -23,8 +23,7 @@ USE_OCL: false
 rtt_target: gnulinux
 rtt_corba_implementation: omniorb
 ccache: false
-iceCC: true
-iceCC_parallel: '15'
+iceCC: false
 GITLAB: http
 GITLAB_ROOT: https://gitlab.com
 GITLAB_PUSH_ROOT: https://gitlab.com
