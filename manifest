@@ -24,6 +24,7 @@ layout:
 
   # temporary
   - models/environments/moon
+  - models/environments/maguez
   - simulation/mars_plugin_collection/particle_system
   - gui/osgviz_mars-plugins/mars_graphics
   - models/robots/coyote3
