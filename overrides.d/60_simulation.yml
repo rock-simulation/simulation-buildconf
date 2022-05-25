@@ -1,5 +1,7 @@
 - simulation/mars/.*:
-  branch: develop
+  branch: mars2
+- simulation/envire_managers:
+  branch: mars2
 - simulation/envire_graphics:
   branch: develop
 - simulation/mars_plugin_collection.*:
