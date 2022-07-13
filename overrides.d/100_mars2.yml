@@ -1,0 +1,22 @@
+- simulation/mars/.*:
+    branch: mars2
+- simulation/orogen/mars:
+    branch: develop
+- simulation/orogen/mars_addons:
+    branch: develop
+- simulation/mars_plugin_collection/.*:
+    branch: develop    
+
+- envire/envire_smurf:
+    branch: devel
+- envire/envire_fcl:
+    branch: devel
+- envire/envire_octomap:
+    branch: devel    
+
+- simulation/envire_graphics:
+    branch: develop  
+- simulation/envire_managers:
+    branch: mars2  
+- simulation/envire_mls:
+    branch: devel    

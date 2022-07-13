@@ -17,6 +17,7 @@ layout:
   - simulation/envire_smurf_loader
   - simulation/envire_graph_loader
   - simulation/envire_visual_debug
+  - simulation/envire_mls
   
   - models/environments/office1
   - models/robots/wheelchair
