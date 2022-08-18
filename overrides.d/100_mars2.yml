@@ -20,3 +20,5 @@
     branch: mars2  
 - simulation/envire_mls:
     branch: devel    
+- simulation/envire_smurf_loader:
+    branch: mars2
