@@ -2,6 +2,7 @@ package_sets:
   - github: rock-core/rock-package_set
   - github: rock-simulation/package_set
   - github: envire/package_set  
+
   - github: envire4mars/envire4mars-package_set
 
   # temporary
@@ -18,6 +19,8 @@ layout:
   - simulation/envire_graph_loader
   - simulation/envire_visual_debug
   - simulation/envire_mls
+
+  - gui/osgviz_mars-plugins/mars_graphics
   
   - models/environments/office1
   - models/robots/wheelchair
