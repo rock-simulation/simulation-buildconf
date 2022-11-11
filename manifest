@@ -17,9 +17,9 @@ layout:
   - simulation/envire_managers
   - simulation/envire_graphics
   - simulation/envire_smurf_loader
-  - simulation/envire_graph_loader
+  #- simulation/envire_graph_loader
   - simulation/envire_visual_debug
-  - simulation/envire_mls
+  #- simulation/envire_mls
 
   - gui/osgviz_mars-plugins/mars_graphics
   
