@@ -20,9 +20,6 @@ layout:
   - simulation/envire_visual_debug
   - simulation/envire_mls
 
-  # temporary we build here sensor_factory
-  - simulation/mars/entity_generation/sensor_factory
-
   - gui/osgviz_mars-plugins/mars_graphics
   
   - models/environments/office1
