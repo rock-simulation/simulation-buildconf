@@ -18,10 +18,10 @@ layout:
   - simulation/envire_graphics
   - simulation/envire_smurf_loader
   #- simulation/envire_graph_loader
-  - simulation/envire_visual_debug
+  #- simulation/envire_visual_debug
   #- simulation/envire_mls
 
-  - gui/osgviz_mars-plugins/mars_graphics
+  #- gui/osgviz_mars-plugins/mars_graphics
   
   - models/environments/office1
   - models/robots/wheelchair
@@ -31,7 +31,6 @@ layout:
   - models/environments/moon
   - models/environments/maguez
   - simulation/mars_plugin_collection/particle_system
-  - gui/osgviz_mars-plugins/mars_graphics
   - models/robots/coyote3
   - models/robots/sherpatt
 
