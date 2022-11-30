@@ -24,3 +24,8 @@
     branch: devel    
 - simulation/envire_smurf_loader:
     branch: mars2
+
+- base/numeric:
+    branch: add_boost_dependency
+- base/boost_serialization:
+    branch: fix_pkgconfig_mac
