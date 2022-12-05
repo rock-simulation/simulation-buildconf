@@ -1,0 +1,6 @@
+entities:
+- {file: ../models/environments/maguez/maguez.smurfs, name: maguez_environment}
+- file: ../models/robots/coyote3/smurf/coyote3.smurf
+  name: coyote3_1
+  position: [1.0, 3.2 , -2.0]
+  rotation: [90]
