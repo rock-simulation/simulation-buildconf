@@ -8,22 +8,27 @@
     branch: develop
 
 - envire/envire_smurf:
-    branch: devel
+    branch: mars2_new_core
 - envire/envire_fcl:
     branch: devel
 - envire/envire_octomap:
     branch: devel
 - envire/envire_core:
     branch: fix_pkgconfig_deps_mac
+- envire/envire_visualizer:
+    branch: mars2_new_core
 
 - simulation/envire_graphics:
-    branch: develop
+    branch: mars2_new_core
 - simulation/envire_managers:
-    branch: mars2
+    branch: mars2_new_core
 - simulation/envire_mls:
     branch: devel
 - simulation/envire_smurf_loader:
-    branch: mars2
+    branch: mars2_new_core
+
+- tools/smurf:
+    branch: mars2_new_core
 
 - base/numeric:
     branch: add_boost_dependency
