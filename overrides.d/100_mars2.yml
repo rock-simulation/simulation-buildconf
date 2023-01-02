@@ -1,27 +1,27 @@
 - simulation/mars/.*:
-    branch: mars2
+    branch: mars2_new_core
 - simulation/orogen/mars:
     branch: develop
 - simulation/orogen/mars_addons:
     branch: develop
 - simulation/mars_plugin_collection/.*:
-    branch: develop    
+    branch: develop
 
 - envire/envire_smurf:
     branch: devel
 - envire/envire_fcl:
     branch: devel
 - envire/envire_octomap:
-    branch: devel    
+    branch: devel
 - envire/envire_core:
     branch: fix_pkgconfig_deps_mac
 
 - simulation/envire_graphics:
-    branch: develop  
+    branch: develop
 - simulation/envire_managers:
-    branch: mars2  
+    branch: mars2
 - simulation/envire_mls:
-    branch: devel    
+    branch: devel
 - simulation/envire_smurf_loader:
     branch: mars2
 
